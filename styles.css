@@ -1,0 +1,41 @@
+/*index.html*/
+
+.informacoes{
+    margin-top: 3em;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+  float: left;
+  padding: 5px;
+  width: 55%;
+}
+
+article {
+    float: left;
+    width: 45%;
+    background-color: #f1f1f1;
+    border-radius: 1em;
+    border-top: 1em;
+    border-bottom: none;
+    padding: 60px;
+  }
+
+
+/*informacoesCurso.html*/
+
+.info{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.div-informacoes{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+  
