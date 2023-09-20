@@ -11,15 +11,15 @@
 
 .content{
 
-  float: left;
+  float: right;
   padding: 5px;
-  width: 55%;
+  width: 40%;
 
 }
 
 .sideContent {
 
-  float: left;
+  float: right;
   width: 60%;
   border-radius: 1em;
   border-bottom: none;
@@ -61,12 +61,6 @@ footer {
 
 }
 
- 
-
- 
-
- 
-
 .div-informacoes{
 
   margin-left: 15%;
@@ -77,6 +71,18 @@ footer {
 
 }
 
+/*videoaulas.html*/
+
+.heading{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.videoaulas{
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 
   

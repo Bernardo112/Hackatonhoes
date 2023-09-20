@@ -7,11 +7,12 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <title>Apresentação dos cursos</title>
+    <title>Hackatonhões</title>
 </head>
 <body>
-    <!--nav bar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+      <!--nav bar-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <img src="img/logoTonhoes.png" alt="logo" height="50" width="50" style="margin-right: 5px;">
           <a class="navbar-brand" disabled href="index.html">Hackatonhões</a>
@@ -26,59 +27,87 @@
               <li class="nav-item">
                 <a class="nav-link" href="provas.html">Provas do Vestibulinho</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Informações dos cursos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="informacoesCurso.html">Apresentação</a></li>
-                  <li><a class="dropdown-item" href="cargaHorariaCurso.html">Carga Horária</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="calendario.html">Calendário do vestibulinho</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="informacoesCurso.html">Apresentação dos cursos</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
       <!-- info adminstração-->
       <div class="div-informacoes">
+        <div class="infografico">
 
-      <div class="info" class="card w-75 mb-3" style="width: 18rem;">
-        <img src="img/informacoesCurso/administracaop.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Administração</h5>
-          <p class="card-text"> O Técnico em Administração é o profissional que controla a rotina administrativa das empresas, Colabora nos planejamentos estratégico, tático e operacional. Realiza atividades em recursos humanos e intermedeia mão-de-obra para colocação e para recolocação profissional.
-            Atua na área de compras, auxilia no setor contábil e assessora a área de Vendas, Intercambia mercadorias e serviços e executa atividades nas áreas fiscal e financeira.</p>
-          <a href="https://www.vestibulinhoetec.com.br/home/" class="btn btn-primary">Inscrever-se</a>
-        </div>
-      </div>
+        <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/informacoesCurso/administracao.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Administração</h5>
+                  <p class="card-text">O Técnico em Administração é o profissional que controla a rotina administrativa das empresas, Colabora nos planejamentos estratégico, tático e operacional. Realiza atividades em recursos humanos e intermedeia mão-de-obra para colocação e para recolocação profissional.
+                    Atua na área de compras, auxilia no setor contábil e assessora a área de Vendas, Intercambia mercadorias e serviços e executa atividades nas áreas fiscal e financeira</p>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
       <!-- info Ds-->
-      <div class="info" class="card w-75 mb-3" style="width: 18rem;">
-        <img src="img/informacoesCurso/ds.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Desenvolvimento de Sistemas</h5>
-          <p class="card-text"> O aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas, com validade nacional, de acordo com o perfil profissional a seguir: O TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS é o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.</p>
-          <a href="https://www.vestibulinhoetec.com.br/home/" class="btn btn-primary">Inscrever-se</a>
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/ds.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento de Sistemas</h5>
+              <p class="card-text">O aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, 
+                numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá 
+                concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas.</p>
+            </div>
+          </div>
         </div>
       </div>
+
+
       <!--info enfermagem -->
-      <div class="info"class="card w-75 mb-3" style="width: 18rem;">
-        <img src="img/informacoesCurso/enfermagem.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Enfermagem</h5>
-          <p class="card-text"> O Técnico em Enfermagem é o profissional que, tendo o exercício regulamentado por lei, integra uma equipe e desenvolve, sob a supervisão de enfermeiro, ações de promoção, prevenção, recuperação e reabilitação referenciadas nas necessidades de saúde individuais e coletivas, determinadas pelos processos geradores de saúde e doença.</p>
-          <a href="https://www.vestibulinhoetec.com.br/home/" class="btn btn-primary">Inscrever-se</a>
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/enfermagem.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Enfermagem</h5>
+              <p class="card-text">O Técnico em Enfermagem é o profissional que, tendo o exercício regulamentado por lei, integra uma equipe e desenvolve, sob a supervisão de enfermeiro, ações de promoção, prevenção, recuperação e reabilitação referenciadas nas necessidades de saúde individuais e coletivas, determinadas pelos processos geradores de saúde e doença</p>
+            </div>
+          </div>
         </div>
       </div>
+
+
       <!--info infromatica-->
-      <div class="info"class="card w-75 mb-3" style="width: 18rem;">
-        <img src="img/informacoesCurso/infrormatica.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">infromatica</h5>
-          <p class="card-text">É o profissional que instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral. Instala e configura redes de computadores locais de pequeno porte. Seleciona e opera aplicações em nuvem. Presta suporte local ou remoto a usuários de diferentes níveis técnicos e para diversas tecnologias.</p>
-          <a href="https://www.vestibulinhoetec.com.br/home/" class="btn btn-primary">Inscrever-se</a>
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/informatica.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Informática</h5>
+              <p class="card-text">É o profissional que instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral. Instala e configura redes de computadores locais de pequeno porte. Seleciona e opera aplicações em nuvem. Presta suporte local ou remoto a usuários de diferentes níveis técnicos e para diversas tecnologias</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
       
 </body>
 </html>
