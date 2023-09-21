@@ -4,70 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">	
     <link href="styles.css" rel="stylesheet">
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <title>Hackatonhões</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Apresentação dos cursos </title>
 </head>
-<body>
-
-    <!--nav bar-->
+<body>  
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img src="img/logoTonhoes.png" alt="logo" height="50" width="50" style="margin-right: 5px;">
-        <a class="navbar-brand" disabled href="index.html">Hackatonhões</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="videoaulas.html">Videoaulas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="provas.html">Provas do Vestibulinho</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="calendario.html">Calendário do vestibulinho</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Informações dos Cursos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="informacoesCurso.html">Apresentação</a></li>
-                <li><a class="dropdown-item" href="cursosIntegrantes.html">Cursos do projeto</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <img src="img/logoTonhoes.png" alt="logo" height="50" width="50" style="margin-right: 5px;">
+            <a class="navbar-brand" disabled href="index.html">Hackatonhões</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="videoaulas.html">Videoaulas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="provas.html">Provas do Vestibulinho</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Informações dos cursos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="informacoesCurso.html">Apresentação</a></li>
+                  <li><a class="dropdown-item" href="cargaHorariaCurso.html">Carga Horária</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
+      </nav>
       <!-- info adminstração-->
       <div class="div-informacoes">
         <div class="infografico">
           
+          
+        <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/informacoesCurso/administracao.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Administração</h5>
+                  <p class="card-text">O Técnico em Administração é o profissional que controla a rotina administrativa das empresas, Colabora nos planejamentos estratégico, tático e operacional. Realiza atividades em recursos humanos e intermedeia mão-de-obra para colocação e para recolocação profissional.
+                    Atua na área de compras, auxilia no setor contábil e assessora a área de Vendas, Intercambia mercadorias e serviços e executa atividades nas áreas fiscal e financeira</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</div>
+      <!-- info Ds-->
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/ds.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento de Sistemas</h5>
+              <p class="card-text">O aluno cursará o Ensino Médio estruturado em conjunto com a formação de Técnico em Desenvolvimento, 
+                numa jornada de até 30 aulas semanais (até 6 aulas diárias), em cada uma das 3 séries. Ao final do curso, o aluno terá 
+                concluído o Ensino Médio e obterá, também, o diploma de Técnico em Desenvolvimento de Sistemas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <!--info enfermagem -->
 
-      <div class="card mb-3 mx-auto">
-        <img src="img/informacoesCurso/enfermagem.jpg" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
-        <div class="card-body">
-          <h5 class="card-title">Enfermagem</h5>
-          <p class="card-text" style="text-align: justify;">O Técnico em Enfermagem é o profissional que, tendo o exercício regulamentado por lei, integra uma equipe e desenvolve, sob a supervisão de enfermeiro, ações de promoção, prevenção, recuperação e reabilitação referenciadas nas necessidades de saúde individuais e coletivas, determinadas pelos processos geradores de saúde e doença.</p>
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/enfermagem.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Enfermagem</h5>
+              <p class="card-text">O Técnico em Enfermagem é o profissional que, tendo o exercício regulamentado por lei, integra uma equipe e desenvolve, sob a supervisão de enfermeiro, ações de promoção, prevenção, recuperação e reabilitação referenciadas nas necessidades de saúde individuais e coletivas, determinadas pelos processos geradores de saúde e doença</p>
+            </div>
+          </div>
         </div>
       </div>
 
 
       <!--info infromatica-->
 
-      <div class="card mb-3 mx-auto">
-        <img src="img/informacoesCurso/informatica.webp" class="card-img-top" alt="..." style="height: 200px; object-fit: cover;">
-        <div class="card-body">
-          <h5 class="card-title">Informática</h5>
-          <p class="card-text" style="text-align: justify;">É o profissional que instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral. Instala e configura redes de computadores locais de pequeno porte. Seleciona e opera aplicações em nuvem. Presta suporte local ou remoto a usuários de diferentes níveis técnicos e para diversas tecnologias.</p>
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/informatica.webp" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Informática</h5>
+              <p class="card-text">É o profissional que instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral. Instala e configura redes de computadores locais de pequeno porte. Seleciona e opera aplicações em nuvem. Presta suporte local ou remoto a usuários de diferentes níveis técnicos e para diversas tecnologias.</p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!--info Edficações-->
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/edificacoes.webp" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Edficações</h5>
+              <p class="card-text">O Técnico em Edificações é o profissional que executa atividades específicas da área de Construção Civil, tais como concepção de projetos, planejamento e orçamento de obras, supervisão da execução de diferentes etapas do processo construtivo, realização do controle tecnológico de materiais e do solo e levantamentos topográficos e planialtimétricos, com senso crítico e analítico, espírito de liderança, visão sistêmica e consciência da responsabilidade social.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+        <!--info exatas-->
+
+         <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 241px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/exatas.jpg" style="margin-top: 2rem;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ensino Médio – Ciências Exatas e Engenharias</h5>
+              <p class="card-text">O aluno egresso do Ensino Médio deverá ser capaz de, a partir da consolidação e do aproveitamento de conhecimentos e competências adquiridos no Ensino Fundamental, construir novos saberes e habilidades para a solução de problemas do mundo real, mobilizando linguagens, raciocínio lógico-matemático, conhecimentos sócio-históricos, científicos, tecnológicos, artísticos e culturais, no contexto da sociedade contemporânea, além de competências pessoais como capacidade de trabalhar de modo autônomo e também colaborativo, respeitando valores e atitudes éticas e ambientais.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+      <!--info humanas-->
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 380px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/humanas.jpg" style="margin-top: 2rem;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ensino Médio – Ciências Humanas e Sociais Aplicadas</h5>
+              <p class="card-text">O aluno egresso do Ensino Médio deverá ser capaz de, a partir da consolidação e do aproveitamento de conhecimentos e competências adquiridos no Ensino Fundamental, construir novos saberes e habilidades para a solução de problemas do mundo real, mobilizando linguagens, raciocínio lógico-matemático, conhecimentos sócio-históricos, científicos, tecnológicos, artísticos e culturais, no contexto da sociedade contemporânea, além de competências pessoais como capacidade de trabalhar de modo autônomo e também colaborativo, respeitando valores e atitudes éticas e ambientais. Poderá ser capaz de argumentar com base em fatos e fontes diversas, cuidar de sua saúde física e emocional e agir com flexibilidade nos campos de atuação social. O foco deste itinerário formativo será o estudo do homem do ponto de vista social, cultural e histórico, mobilizando esforços na resolução de problemas contemporâneos.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <!--info linguagens-->
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 415px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/linguagens.jpg" style="margin-top: 6rem;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ensino Médio – Linguagens, Ciências Humanas e Sociaiss</h5>
+              <p class="card-text">O aluno egresso do Ensino Médio deverá ser capaz de, a partir da consolidação e do aproveitamento de conhecimentos e competências adquiridos no Ensino Fundamental, construir novos saberes e habilidades para a solução de problemas do mundo real, mobilizando linguagens, raciocínio lógico-matemático, conhecimentos sócio-históricos, científicos, tecnológicos, artísticos e culturais, no contexto da sociedade contemporânea, além de competências pessoais como capacidade de trabalhar de modo autônomo e também colaborativo, respeitando valores e atitudes éticas e ambientais. Poderá ser capaz de argumentar com base em fatos e fontes diversas, cuidar de sua saúde física e emocional e agir com flexibilidade nos campos de atuação social. O foco deste itinerário formativo será a competência na linguagem escrita e na linguagem oral, o desenvolvimento de capacidades intelectuais e expressivas e o interesse em aprender a língua materna e idiomas estrangeiros, preferencialmente o inglês, bem como estudar o homem do ponto de vista social, cultural e histórico.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
       
+      <!--info matematicas-->
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 380px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/matematica.jpg" style="margin-top: 6rem;" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ensino Médio – Matemática e suas Tecnologias</h5>
+              <p class="card-text">O aluno egresso do Ensino Médio deverá ser capaz de, a partir da consolidação e do aproveitamento de conhecimentos e competências adquiridos no Ensino Fundamental, construir novos saberes e habilidades para a solução de problemas do mundo real, mobilizando linguagens, raciocínio lógico-matemático, conhecimentos sócio-históricos, científicos, tecnológicos, artísticos e culturais, no contexto da sociedade contemporânea, além de competências pessoais como capacidade de trabalhar de modo autônomo e também colaborativo, respeitando valores e atitudes éticas e ambientais. Poderá ser capaz de argumentar com base em fatos e fontes diversas, cuidar de sua saúde física e emocional e agir com flexibilidade nos campos de atuação social. O foco deste itinerário formativo será o estudo de fundamentos e cálculos próprios das Ciências Exatas, mobilizando esforços na resolução de problemas e no desenvolvimento do raciocínio lógico.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+      
+      <!---->
+
+      <div class="card mb-3" style="max-width: 900px; width: 1000px; height: 200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/informacoesCurso/turismo.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Turismo Receptivo</h5>
+              <p class="card-text">O Técnico em Turismo Receptivo é o profissional que recebe / acolhe o turista em agências de turismo, meios de hospedagem, restaurantes e empresas organizadoras de eventos. Organiza roteiros históricos, culturais e educativos, assim como desenvolve atividades inerentes a arte da hospitalidade. Presta informações, assistência e orientação técnica ao turista.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <br><br><br>
+    
 </body>
 </html>
